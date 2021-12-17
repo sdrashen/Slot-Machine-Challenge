@@ -9,8 +9,16 @@ const orange = 20
 const bana = 24
 
 window.onload = function() {
-    const game = new Phaser.Game(200, 200, Phaser.CANVAS)
+    const game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create });
     const slots
     const buttons
+
+}
+
+function preload() {
+
+}
+
+function create() {
 
 }
